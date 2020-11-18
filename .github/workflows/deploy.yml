@@ -45,7 +45,7 @@ jobs:
           npm install
 
       - name: Generate files
-        # 清除打包文件，再编译 编译 markdown 文件
+        # 清除打包文件 编译 markdown 文件
         run: |
           hexo clean
           hexo generate
