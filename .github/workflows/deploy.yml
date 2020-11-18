@@ -32,7 +32,7 @@ jobs:
           node-version: '12.x'
 
       - name: Cache node modules
-        # 设置包缓存目录，避免每次下载
+        # 设置包缓存目录，避免每次下载.缓存
         uses: actions/cache@v1
         with:
           path: ~/.npm
