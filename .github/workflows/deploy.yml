@@ -17,7 +17,7 @@ jobs:
     steps:
       - name: Checkout codes
         uses: actions/checkout@v2
-
+        # 同步gitee
       - name: Gitee synchronization
         uses: wearerequired/git-mirror-action@master
         env:
