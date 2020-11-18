@@ -98,6 +98,7 @@ theme: yilia
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repository:
-    coding: https://git.coding.net/momolw/blog.git
+  # type: git
+  # repository:
+  #   coding: https://git.coding.net/momolw/blog.git
+  # type: baidu_url_submitter ## 自动推送爬虫

@@ -5,7 +5,7 @@ tags:
   - sass
 abbrlink: 9908c040123123
 date: 2020-04-28 14:51:33
-description: 压缩图片进行优化 API图片压缩功能
+description: 前端压缩图片进行优化 API图片压缩功能
 ---
 
 ### 前言
