@@ -50,7 +50,7 @@ jobs:
           # Coding 仓库
           # CODING_REPO: e.coding.net/yifanzheng/blogs.git
           # Gitee 仓库
-          # GITEE_REPO: gitee.com/yifanzheng/yifanzheng.gitee.io
+          GITEE_REPO: gitee.com/xuanbi/m-blog
         # 将编译后的博客文件推送到指定仓库
         run: |
           cd ./public && git init && git add .
@@ -60,5 +60,6 @@ jobs:
           git commit -m "GitHub Actions Auto Builder at $(date +'%Y-%m-%d %H:%M:%S')"
           git branch -M gh-pages
           git push --force --quiet "https://${{ secrets.ACCESS_TOKEN }}@$GITHUB_REPO" gh-pages:gh-pages
+          git config user.name "玄笔"
           git push --force --quiet "https://xuanbi:${{ secrets.GITEE_ACCOUNT_TOKEN }}@$GITEE_REPO" gh-pages:gh-pages
         #   git push --force --quiet "https://RoYFbFDSfM:${{ secrets.CODING_TOKEN }}@$CODING_REPO" master:master
