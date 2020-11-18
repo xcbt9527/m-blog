@@ -4,7 +4,7 @@ name: Blog CI/CD
 on:
   push:
     branches:
-      - gh-pages
+      - main
 
 env:
   TZ: Asia/Shanghai
