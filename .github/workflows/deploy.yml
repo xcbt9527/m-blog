@@ -53,6 +53,7 @@ jobs:
           # GITEE_REPO: gitee.com/yifanzheng/yifanzheng.gitee.io
         # 将编译后的博客文件推送到指定仓库
         run: |
+          git push --force --quiet "https://xuanbi:${{ secrets.GITEE_ACCOUNT_TOKEN }}@$GITEE_REPO" master:master
           cd ./public && git init && git add .
           git config user.name "xcbt9527"
           git config user.email "764567192@qq.com"
