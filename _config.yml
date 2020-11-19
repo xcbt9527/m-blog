@@ -30,7 +30,8 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
-
+# 默认情况下，将源码生成部署至服务器会将上一次生成的数据覆盖掉。如果你期望在 github上保留一个 README.md 给读者看说明的话，可以通过 _config.yml 来设置它：
+# skip_render: ['images/loading.gif', 'README.md']
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
@@ -38,7 +39,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -78,6 +79,18 @@ default_category: uncategorized
 category_map:
 tag_map:
 
+# Expansion: hexo-generator-sitemap
+# generate sitemap.
+# https://github.com/hexojs/hexo-generator-sitemap
+sitemap:
+  path: sitemap.xml
+# Expansion: hexo-generator-baidu-sitemap
+# 针对百度进行优化的 sitemap，作者还是建议手动提交至百度会比较好
+# https://github.com/coneycode/hexo-generator-baidu-sitemap
+baidusitemap:
+  path: baidusitemap.xml
+archive_generator:
+  per_page: 0
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
