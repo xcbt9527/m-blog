@@ -1,6 +1,7 @@
 #### 1、本地初始化安装 hexo
 
-在开始之前你需要在 coding 上申请一个账号并且把 ssh 放到电脑里。[传送门](https://coding.net/help/doc/account/ssh-key.html)
+> [hexo 美化合集](https://zhuanlan.zhihu.com/p/69211731)
+> 在开始之前你需要在 coding 上申请一个账号并且把 ssh 放到电脑里。[传送门](https://coding.net/help/doc/account/ssh-key.html)
 
 ```
 cnpm i -g hexo  //全局安装 hexo
