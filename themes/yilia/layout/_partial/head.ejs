@@ -43,7 +43,6 @@
   </style>
   <%- partial('google-analytics') %>
   <%- partial('baidu-analytics') %>
-  {% if theme.baidu_push %}
   <script>
     (function () {
       var bp = document.createElement('script');
@@ -57,7 +56,5 @@
       s.parentNode.insertBefore(bp, s);
     })();
 
-  </script>
-  {% endif %}
   </script>
 </head>
