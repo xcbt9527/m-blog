@@ -120,15 +120,3 @@ baidu_url_submit:
   host: www.itmomo.top # 在百度站长平台中添加的域名
   token: ${{ secrets.BAIDU_TOKEN }} # 秘钥
   path: baidu_urls.txt # 文本文档的地址， 新链接会保存在此文本文档里
-# https://zhuanlan.zhihu.com/p/69211731
-live2d:
-  enable: true
-  scriptFrom: local
-  model:
-    use: live2d-widget-model-tororo #模型选择
-  display:
-    position: right #模型位置
-    width: 150 #模型宽度
-    height: 300 #模型高度
-  mobile:
-    show: false #是否在手机端显示
