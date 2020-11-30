@@ -6,7 +6,7 @@ menu:
 # SubNav
 subnav:
   github: "https://github.com/xcbt9527"
-  zhihu: "https://www.zhihu.com/people/momo-it"
+  # zhihu: "https://www.zhihu.com/people/momo-it"
   qq: "764567192"
   # weibo: "#"
   # rss: "#"
@@ -16,7 +16,7 @@ subnav:
   #segmentfault: "#"
   #bilibili: "#"
   #acfun: "#"
-  #mail: "mailto:litten225@qq.com"
+  mail: "mailto:764567192@qq.com"
   #facebook: "#"
   #google: "#"
   #twitter: "#"

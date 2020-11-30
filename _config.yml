@@ -31,7 +31,7 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 # 默认情况下，将源码生成部署至服务器会将上一次生成的数据覆盖掉。如果你期望在 github上保留一个 README.md 给读者看说明的话，可以通过 _config.yml 来设置它：
-# skip_render: ['images/loading.gif', 'README.md']
+skip_render: ['CNAME']
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
