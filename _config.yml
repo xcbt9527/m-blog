@@ -114,7 +114,7 @@ deploy:
   # type: git
   # repository:
   #   coding: https://git.coding.net/momolw/blog.git
-  # type: baidu_url_submitter ## 自动推送爬虫
+  - type: baidu_url_submitter ## 自动推送爬虫
 baidu_url_submit:
   count: 1 # 提交最新的多少个链接
   host: www.itmomo.top # 在百度站长平台中添加的域名
