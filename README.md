@@ -75,11 +75,14 @@ deploy:
 
 ```
 hexo new "postName" // 新建文章
+hexo new draft "postName" // 新建文章草稿
+hexo P "postName" //草稿发布为正式文章
 hexo generate // 生成静态页面至public目录
 hexo server // 开启预览访问端口（默认端口4000，'ctrl + c'关闭server）
 hexo deploy // 部署到GitHub
 hexo help  // 查看帮助
 hexo version  // 查看Hexo的版本
+hexo S --draft // 预览草稿
 ```
 
 ##### 缩写
